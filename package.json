@@ -1,0 +1,32 @@
+{
+  "name": "nextjs-t3-bun",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "bun dev",
+    "tw:watch": "npx tailwindcss -i ./src/styles/tailwind.css -o ./src/styles/global.css --watch",
+    "lint": "bun next lint"
+  },
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.1",
+    "@next/eslint-plugin-next": "13.1.6",
+    "@types/node": "^18.14.0",
+    "@types/react": "^18.0.28",
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0",
+    "bun-framework-next": "^12.2.5",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "^2.8.4",
+    "prettier-plugin-tailwindcss": "^0.2.3",
+    "react-refresh": "0.14.0",
+    "tailwind": "^4.0.0",
+    "typescript": "latest"
+  },
+  "module": "index.js"
+}
